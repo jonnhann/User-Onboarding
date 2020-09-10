@@ -67,7 +67,7 @@ export default function Form() {
       {errors.terms && <p>Please Agree to Terms</p>}
       
       {/* {errorState.terms.length > 0 ? <p className='error'>{errorState.terms}</p> : null} */}
-      <button>Submit</button>
+      <button type='submit'>Submit</button>
       <pre>{JSON.stringify(users, null, 2)}</pre>
     </form>
   );
